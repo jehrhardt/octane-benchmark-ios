@@ -22,6 +22,7 @@
 		225DDE4B18FB90EF00BE8FB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225DDE2A18FB90EF00BE8FB6 /* UIKit.framework */; };
 		225DDE5318FB90EF00BE8FB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 225DDE5118FB90EF00BE8FB6 /* InfoPlist.strings */; };
 		225DDE5518FB90EF00BE8FB6 /* OctaneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 225DDE5418FB90EF00BE8FB6 /* OctaneTests.m */; };
+		225DDE5F18FB951200BE8FB6 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225DDE5E18FB951200BE8FB6 /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		225DDE5018FB90EF00BE8FB6 /* OctaneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OctaneTests-Info.plist"; sourceTree = "<group>"; };
 		225DDE5218FB90EF00BE8FB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		225DDE5418FB90EF00BE8FB6 /* OctaneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OctaneTests.m; sourceTree = "<group>"; };
+		225DDE5E18FB951200BE8FB6 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				225DDE5F18FB951200BE8FB6 /* JavaScriptCore.framework in Frameworks */,
 				225DDE2918FB90EF00BE8FB6 /* CoreGraphics.framework in Frameworks */,
 				225DDE2B18FB90EF00BE8FB6 /* UIKit.framework in Frameworks */,
 				225DDE2718FB90EF00BE8FB6 /* Foundation.framework in Frameworks */,
@@ -103,6 +106,7 @@
 		225DDE2518FB90EF00BE8FB6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				225DDE5E18FB951200BE8FB6 /* JavaScriptCore.framework */,
 				225DDE2618FB90EF00BE8FB6 /* Foundation.framework */,
 				225DDE2818FB90EF00BE8FB6 /* CoreGraphics.framework */,
 				225DDE2A18FB90EF00BE8FB6 /* UIKit.framework */,
@@ -471,6 +475,7 @@
 				225DDE5A18FB90EF00BE8FB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		225DDE5B18FB90EF00BE8FB6 /* Build configuration list for PBXNativeTarget "OctaneTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +484,7 @@
 				225DDE5D18FB90EF00BE8FB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
