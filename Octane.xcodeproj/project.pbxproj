@@ -23,6 +23,27 @@
 		225DDE5318FB90EF00BE8FB6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 225DDE5118FB90EF00BE8FB6 /* InfoPlist.strings */; };
 		225DDE5518FB90EF00BE8FB6 /* OctaneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 225DDE5418FB90EF00BE8FB6 /* OctaneTests.m */; };
 		225DDE5F18FB951200BE8FB6 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225DDE5E18FB951200BE8FB6 /* JavaScriptCore.framework */; };
+		225DDE7618FB971A00BE8FB6 /* base.js in Sources */ = {isa = PBXBuildFile; fileRef = 225DDE6118FB971A00BE8FB6 /* base.js */; };
+		225DDE7718FB971A00BE8FB6 /* box2d.js in Sources */ = {isa = PBXBuildFile; fileRef = 225DDE6218FB971A00BE8FB6 /* box2d.js */; };
+		225DDE7818FB971A00BE8FB6 /* code-load.js in Sources */ = {isa = PBXBuildFile; fileRef = 225DDE6318FB971A00BE8FB6 /* code-load.js */; };
+		225DDE7918FB971A00BE8FB6 /* crypto.js in Sources */ = {isa = PBXBuildFile; fileRef = 225DDE6418FB971A00BE8FB6 /* crypto.js */; };
+		225DDE7A18FB971A00BE8FB6 /* deltablue.js in Sources */ = {isa = PBXBuildFile; fileRef = 225DDE6518FB971A00BE8FB6 /* deltablue.js */; };
+		225DDE7B18FB971A00BE8FB6 /* earley-boyer.js in Sources */ = {isa = PBXBuildFile; fileRef = 225DDE6618FB971A00BE8FB6 /* earley-boyer.js */; };
+		225DDE7C18FB971A00BE8FB6 /* gbemu-part1.js in Sources */ = {isa = PBXBuildFile; fileRef = 225DDE6718FB971A00BE8FB6 /* gbemu-part1.js */; };
+		225DDE7D18FB971A00BE8FB6 /* gbemu-part2.js in Sources */ = {isa = PBXBuildFile; fileRef = 225DDE6818FB971A00BE8FB6 /* gbemu-part2.js */; };
+		225DDE7E18FB971A00BE8FB6 /* mandreel.js in Sources */ = {isa = PBXBuildFile; fileRef = 225DDE6918FB971A00BE8FB6 /* mandreel.js */; };
+		225DDE7F18FB971A00BE8FB6 /* navier-stokes.js in Sources */ = {isa = PBXBuildFile; fileRef = 225DDE6A18FB971A00BE8FB6 /* navier-stokes.js */; };
+		225DDE8018FB971A00BE8FB6 /* pdfjs.js in Sources */ = {isa = PBXBuildFile; fileRef = 225DDE6B18FB971A00BE8FB6 /* pdfjs.js */; };
+		225DDE8118FB971A00BE8FB6 /* raytrace.js in Sources */ = {isa = PBXBuildFile; fileRef = 225DDE6C18FB971A00BE8FB6 /* raytrace.js */; };
+		225DDE8218FB971A00BE8FB6 /* regexp.js in Sources */ = {isa = PBXBuildFile; fileRef = 225DDE6D18FB971A00BE8FB6 /* regexp.js */; };
+		225DDE8318FB971A00BE8FB6 /* richards.js in Sources */ = {isa = PBXBuildFile; fileRef = 225DDE6E18FB971A00BE8FB6 /* richards.js */; };
+		225DDE8418FB971A00BE8FB6 /* run.js in Sources */ = {isa = PBXBuildFile; fileRef = 225DDE6F18FB971A00BE8FB6 /* run.js */; };
+		225DDE8518FB971A00BE8FB6 /* splay.js in Sources */ = {isa = PBXBuildFile; fileRef = 225DDE7018FB971A00BE8FB6 /* splay.js */; };
+		225DDE8618FB971A00BE8FB6 /* typescript-compiler.js in Sources */ = {isa = PBXBuildFile; fileRef = 225DDE7118FB971A00BE8FB6 /* typescript-compiler.js */; };
+		225DDE8718FB971A00BE8FB6 /* typescript-input.js in Sources */ = {isa = PBXBuildFile; fileRef = 225DDE7218FB971A00BE8FB6 /* typescript-input.js */; };
+		225DDE8818FB971A00BE8FB6 /* typescript.js in Sources */ = {isa = PBXBuildFile; fileRef = 225DDE7318FB971A00BE8FB6 /* typescript.js */; };
+		225DDE8918FB971A00BE8FB6 /* zlib-data.js in Sources */ = {isa = PBXBuildFile; fileRef = 225DDE7418FB971A00BE8FB6 /* zlib-data.js */; };
+		225DDE8A18FB971A00BE8FB6 /* zlib.js in Sources */ = {isa = PBXBuildFile; fileRef = 225DDE7518FB971A00BE8FB6 /* zlib.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +78,27 @@
 		225DDE5218FB90EF00BE8FB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		225DDE5418FB90EF00BE8FB6 /* OctaneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OctaneTests.m; sourceTree = "<group>"; };
 		225DDE5E18FB951200BE8FB6 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		225DDE6118FB971A00BE8FB6 /* base.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = base.js; path = JavaScript/base.js; sourceTree = "<group>"; };
+		225DDE6218FB971A00BE8FB6 /* box2d.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = box2d.js; path = JavaScript/box2d.js; sourceTree = "<group>"; };
+		225DDE6318FB971A00BE8FB6 /* code-load.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "code-load.js"; path = "JavaScript/code-load.js"; sourceTree = "<group>"; };
+		225DDE6418FB971A00BE8FB6 /* crypto.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = crypto.js; path = JavaScript/crypto.js; sourceTree = "<group>"; };
+		225DDE6518FB971A00BE8FB6 /* deltablue.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = deltablue.js; path = JavaScript/deltablue.js; sourceTree = "<group>"; };
+		225DDE6618FB971A00BE8FB6 /* earley-boyer.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "earley-boyer.js"; path = "JavaScript/earley-boyer.js"; sourceTree = "<group>"; };
+		225DDE6718FB971A00BE8FB6 /* gbemu-part1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "gbemu-part1.js"; path = "JavaScript/gbemu-part1.js"; sourceTree = "<group>"; };
+		225DDE6818FB971A00BE8FB6 /* gbemu-part2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "gbemu-part2.js"; path = "JavaScript/gbemu-part2.js"; sourceTree = "<group>"; };
+		225DDE6918FB971A00BE8FB6 /* mandreel.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = mandreel.js; path = JavaScript/mandreel.js; sourceTree = "<group>"; };
+		225DDE6A18FB971A00BE8FB6 /* navier-stokes.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "navier-stokes.js"; path = "JavaScript/navier-stokes.js"; sourceTree = "<group>"; };
+		225DDE6B18FB971A00BE8FB6 /* pdfjs.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = pdfjs.js; path = JavaScript/pdfjs.js; sourceTree = "<group>"; };
+		225DDE6C18FB971A00BE8FB6 /* raytrace.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = raytrace.js; path = JavaScript/raytrace.js; sourceTree = "<group>"; };
+		225DDE6D18FB971A00BE8FB6 /* regexp.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = regexp.js; path = JavaScript/regexp.js; sourceTree = "<group>"; };
+		225DDE6E18FB971A00BE8FB6 /* richards.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = richards.js; path = JavaScript/richards.js; sourceTree = "<group>"; };
+		225DDE6F18FB971A00BE8FB6 /* run.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = run.js; path = JavaScript/run.js; sourceTree = "<group>"; };
+		225DDE7018FB971A00BE8FB6 /* splay.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = splay.js; path = JavaScript/splay.js; sourceTree = "<group>"; };
+		225DDE7118FB971A00BE8FB6 /* typescript-compiler.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "typescript-compiler.js"; path = "JavaScript/typescript-compiler.js"; sourceTree = "<group>"; };
+		225DDE7218FB971A00BE8FB6 /* typescript-input.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "typescript-input.js"; path = "JavaScript/typescript-input.js"; sourceTree = "<group>"; };
+		225DDE7318FB971A00BE8FB6 /* typescript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = typescript.js; path = JavaScript/typescript.js; sourceTree = "<group>"; };
+		225DDE7418FB971A00BE8FB6 /* zlib-data.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "zlib-data.js"; path = "JavaScript/zlib-data.js"; sourceTree = "<group>"; };
+		225DDE7518FB971A00BE8FB6 /* zlib.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = zlib.js; path = JavaScript/zlib.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +175,7 @@
 		225DDE2D18FB90EF00BE8FB6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				225DDE6018FB96E000BE8FB6 /* JavaScript */,
 				225DDE2E18FB90EF00BE8FB6 /* Octane-Info.plist */,
 				225DDE2F18FB90EF00BE8FB6 /* InfoPlist.strings */,
 				225DDE3218FB90EF00BE8FB6 /* main.m */,
@@ -157,6 +200,34 @@
 				225DDE5118FB90EF00BE8FB6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		225DDE6018FB96E000BE8FB6 /* JavaScript */ = {
+			isa = PBXGroup;
+			children = (
+				225DDE6118FB971A00BE8FB6 /* base.js */,
+				225DDE6218FB971A00BE8FB6 /* box2d.js */,
+				225DDE6318FB971A00BE8FB6 /* code-load.js */,
+				225DDE6418FB971A00BE8FB6 /* crypto.js */,
+				225DDE6518FB971A00BE8FB6 /* deltablue.js */,
+				225DDE6618FB971A00BE8FB6 /* earley-boyer.js */,
+				225DDE6718FB971A00BE8FB6 /* gbemu-part1.js */,
+				225DDE6818FB971A00BE8FB6 /* gbemu-part2.js */,
+				225DDE6918FB971A00BE8FB6 /* mandreel.js */,
+				225DDE6A18FB971A00BE8FB6 /* navier-stokes.js */,
+				225DDE6B18FB971A00BE8FB6 /* pdfjs.js */,
+				225DDE6C18FB971A00BE8FB6 /* raytrace.js */,
+				225DDE6D18FB971A00BE8FB6 /* regexp.js */,
+				225DDE6E18FB971A00BE8FB6 /* richards.js */,
+				225DDE6F18FB971A00BE8FB6 /* run.js */,
+				225DDE7018FB971A00BE8FB6 /* splay.js */,
+				225DDE7118FB971A00BE8FB6 /* typescript-compiler.js */,
+				225DDE7218FB971A00BE8FB6 /* typescript-input.js */,
+				225DDE7318FB971A00BE8FB6 /* typescript.js */,
+				225DDE7418FB971A00BE8FB6 /* zlib-data.js */,
+				225DDE7518FB971A00BE8FB6 /* zlib.js */,
+			);
+			name = JavaScript;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +329,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				225DDE8618FB971A00BE8FB6 /* typescript-compiler.js in Sources */,
+				225DDE7C18FB971A00BE8FB6 /* gbemu-part1.js in Sources */,
+				225DDE8118FB971A00BE8FB6 /* raytrace.js in Sources */,
+				225DDE8A18FB971A00BE8FB6 /* zlib.js in Sources */,
+				225DDE7D18FB971A00BE8FB6 /* gbemu-part2.js in Sources */,
+				225DDE7918FB971A00BE8FB6 /* crypto.js in Sources */,
+				225DDE8818FB971A00BE8FB6 /* typescript.js in Sources */,
+				225DDE7B18FB971A00BE8FB6 /* earley-boyer.js in Sources */,
+				225DDE7A18FB971A00BE8FB6 /* deltablue.js in Sources */,
+				225DDE8718FB971A00BE8FB6 /* typescript-input.js in Sources */,
+				225DDE7718FB971A00BE8FB6 /* box2d.js in Sources */,
+				225DDE8018FB971A00BE8FB6 /* pdfjs.js in Sources */,
+				225DDE7818FB971A00BE8FB6 /* code-load.js in Sources */,
 				225DDE4018FB90EF00BE8FB6 /* JEHViewController.m in Sources */,
+				225DDE8418FB971A00BE8FB6 /* run.js in Sources */,
+				225DDE7618FB971A00BE8FB6 /* base.js in Sources */,
 				225DDE3718FB90EF00BE8FB6 /* JEHAppDelegate.m in Sources */,
+				225DDE7F18FB971A00BE8FB6 /* navier-stokes.js in Sources */,
+				225DDE8318FB971A00BE8FB6 /* richards.js in Sources */,
+				225DDE8918FB971A00BE8FB6 /* zlib-data.js in Sources */,
+				225DDE7E18FB971A00BE8FB6 /* mandreel.js in Sources */,
 				225DDE3318FB90EF00BE8FB6 /* main.m in Sources */,
+				225DDE8518FB971A00BE8FB6 /* splay.js in Sources */,
+				225DDE8218FB971A00BE8FB6 /* regexp.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
